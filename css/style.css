@@ -11,12 +11,21 @@ body {
     background-color: #000;
     height: 100vh;
 }
-
+/*------------------
+    HEADER
+------------------*/
 header {
     height: 30px;
     background-color: aqua;
+    text-align: end;
 }
-
+button{
+    background-color:#4A4A4A ;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* MAIN */
 main {
     height: calc(100% - 120px);
     background-color: orange;
@@ -29,3 +38,21 @@ footer {
     height: 90px;
     background-color: #222222;
 }
+.users{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.user{
+    width: calc(100% / 7);
+    
+}
+.row{
+    display: flex;
+}
+.user-photo img{
+    display: block;
+    width: 100%;
+    
+}
+
