@@ -16,7 +16,7 @@ body {
 ------------------*/
 header {
     height: 30px;
-    background-color: aqua;
+    background-color: black;
     text-align: end;
 }
 button{
@@ -109,7 +109,4 @@ i{
 .icons{
     padding: 10px;
     text-align: center;
-    
-    
 }
-
