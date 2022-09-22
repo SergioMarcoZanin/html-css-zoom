@@ -44,7 +44,7 @@ footer {
 }
 
 .user{
-    width: calc(100% / 7 - 10px);
+    width: calc(100% / 7 - 20px);
     margin: 5px;
     
 }
@@ -69,5 +69,47 @@ footer {
     right: 1;
     background-color: grey;
     color: white;
+}
+/* FOOTER */
+footer{
+    color: white;
+}
+.row-footer{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+.voice-video{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.end{
+    width: 10%;
+}
+.end-meeting{
+    background-color: grey;
+    height: 90px; 
+    width: 192px;
+    border: none;
+    border-radius: 0%;
+    color: red;
+}
+i{
+    color: white;
+}
+.icons{
+    padding: 10px;
+    text-align: center;
+    
+    
 }
 
